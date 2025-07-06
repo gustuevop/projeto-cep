@@ -48,10 +48,11 @@ projeto-cep/
 
 ## 👨‍💻 Autor
 
-- **Gustavo Spro**
+- **Gustavo Prado**
 - 📱 WhatsApp: [44991148553](https://wa.me/5544991148553)
 - 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-spro/)
 - 📷 [Instagram](https://www.instagram.com/gustuevop/)
+- ✉️ Email: [gustavo.spro@outlook.com](mailto:gustavo.spro@outlook.com)
 
 ---
 
