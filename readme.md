@@ -14,13 +14,13 @@ A proposta é criar um site responsivo utilizando **HTML5**, **TailwindCSS** e *
 
 ## ✨ Funcionalidades
 
-- Página inicial com explicação do projeto
-- Página **sobre** com informações do autor
-- Página **contato** com formas de contato direto (WhatsApp, LinkedIn, Instagram)
-- Página **busca de endereço** com:
-  - Máscara de input para o campo CEP
-  - Integração com API ViaCEP
-  - Exibição do endereço completo
+- [Página inicial](https://gustuevop.github.io/projeto-cep/index.html) com explicação do projeto  
+- [Página sobre](https://gustuevop.github.io/projeto-cep/sobre.html) com informações do autor  
+- [Página de contato](https://gustuevop.github.io/projeto-cep/contato.html) com formas de contato direto (WhatsApp, LinkedIn, Instagram)  
+- [Página de busca de endereço](https://gustuevop.github.io/projeto-cep/busca.html) com:  
+  - Máscara de input no campo CEP  
+  - Integração com API ViaCEP  
+  - Exibição do resultado sem recarregar a página
 
 ---
 
@@ -36,17 +36,19 @@ A proposta é criar um site responsivo utilizando **HTML5**, **TailwindCSS** e *
 
 ## 📁 Estrutura de arquivos
 
-projeto-cep/
-├── index.html
-├── sobre.html
-├── contato.html
-└── busca.html
+```
+frontend-viacep/
+├── index.html     - Página inicial
+├── sobre.html     - Sobre o autor
+├── contato.html   - Contato pessoal
+└── busca.html     - Busca de endereço por CEP
+```
 
 ---
 
 ## 👨‍💻 Autor
 
-- **Gustavo Prado**
+- **Gustavo Spro**
 - 📱 WhatsApp: [44991148553](https://wa.me/5544991148553)
 - 💼 [LinkedIn](https://www.linkedin.com/in/gustavo-spro/)
 - 📷 [Instagram](https://www.instagram.com/gustuevop/)
