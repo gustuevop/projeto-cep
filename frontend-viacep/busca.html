@@ -6,20 +6,16 @@
   <meta name="description" content="Busque endereços automaticamente a partir do CEP usando a API pública ViaCEP." />
   <meta name="author" content="Gustavo Spro" />
   <meta name="keywords" content="buscar cep, endereço, viacep, frontend, javascript, tailwind, projeto acadêmico" />
-
   <meta property="og:title" content="Buscar Endereço por CEP" />
   <meta property="og:description" content="Ferramenta acadêmica de busca de endereço a partir do CEP com integração à API ViaCEP." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://seudominio.com/busca.html" />
-  <meta property="og:image" content="https://seudominio.com/imagem-preview.jpg" />
-
+  <meta property="og:url" content="https://gustuevop.github.io/projeto-cep/frontend-viacep/index.html" />
   <title>Buscar Endereço | Projeto Front-End Cesumar</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
 </head>
 <body class="bg-gray-100 text-gray-800 flex flex-col min-h-screen">
-
   <header class="bg-blue-800 text-white shadow-md">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
       <h1 class="text-xl font-bold">Projeto Front-End Cesumar</h1>
@@ -33,20 +29,16 @@
       </nav>
     </div>
   </header>
-
   <main class="flex-grow">
     <section class="max-w-xl mx-auto px-4 py-10 bg-white mt-6 rounded shadow">
       <h2 class="text-2xl font-bold mb-6">Buscar Endereço pelo CEP</h2>
-      
       <label for="cep" class="block mb-2 font-medium">Digite o CEP:</label>
       <input type="text" id="cep" placeholder="Ex: 87050-000"
         class="w-full p-3 border border-gray-300 rounded mb-4" />
-
       <button id="buscar"
         class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded">
         Buscar
       </button>
-
       <div id="resultado" class="mt-6 hidden border-t pt-4">
         <h3 class="text-lg font-semibold mb-2">Resultado:</h3>
         <p><strong>Logradouro:</strong> <span id="logradouro"></span></p>
@@ -56,21 +48,17 @@
       </div>
     </section>
   </main>
-
   <footer class="bg-blue-800 text-white text-center py-4 mt-6">
     <p>&copy; 2025 - Projeto Acadêmico UniCesumar</p>
   </footer>
-
   <script>
     $('#cep').mask('00000-000');
-
     $('#buscar').on('click', function () {
       const cep = $('#cep').val().replace(/\D/g, '');
       if (cep.length !== 8) {
         alert('CEP inválido. Insira 8 dígitos.');
         return;
       }
-
       fetch(`https://viacep.com.br/ws/${cep}/json/`)
         .then(res => res.json())
         .then(data => {
@@ -87,6 +75,5 @@
         .catch(() => alert('Erro ao consultar o CEP.'));
     });
   </script>
-
 </body>
 </html>
