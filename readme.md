@@ -37,7 +37,7 @@ A proposta é criar um site responsivo utilizando **HTML5**, **TailwindCSS** e *
 ## 📁 Estrutura de arquivos
 
 ```
-frontend-viacep/
+projeto-cep/
 ├── index.html     - Página inicial
 ├── sobre.html     - Sobre o autor
 ├── contato.html   - Contato pessoal
